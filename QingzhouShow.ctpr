@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="10"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="青州杭创HIS光学组网编码器 1.3"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+      </XPManifest>
+      <Icon Value="0"/>
+    </General>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="12">
+      <Item1>
+        <PackageName Value="pl_barcodes"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="pl_BGRAuecontrols"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="pl_excontrols"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="pl_cindy"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="pl_zeosdbo"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="pl_exsystem"/>
+      </Item6>
+      <Item7>
+        <PackageName Value="adFCL"/>
+      </Item7>
+      <Item8>
+        <PackageName Value="pl_spktoolbar"/>
+      </Item8>
+      <Item9>
+        <PackageName Value="pl_rx"/>
+      </Item9>
+      <Item10>
+        <PackageName Value="pl_bgracontrols"/>
+      </Item10>
+      <Item11>
+        <PackageName Value="MyLazPackage"/>
+      </Item11>
+      <Item12>
+        <PackageName Value="adLCL"/>
+      </Item12>
+    </RequiredPackages>
+    <Units Count="10">
+      <Unit0>
+        <Filename Value="QingzhouShow.ppr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="datamodule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Dm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="selectdatedlg.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dlgSelectDate"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="debugform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmDebug"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="progresform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmProgres"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="playerform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmPlayer"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="sqlform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmSQL"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="aboutform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="singlecodeform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmSingleCode"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit9>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="bin\QingzhouShow"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="$(TyphonDir)\components\pl_ExSystem\source"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
